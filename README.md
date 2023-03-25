@@ -189,7 +189,7 @@ In this case, I'll show you how to prompt the user to switch to the Polygon netw
 We just need a couple of additions. First, add a button above the `connect` button.
 
 ```html
-<button onclick="switchNetwork()">Switch to Polygon</button>
+<button onclick="switchNetwo-rk()">Switch to Polygon</button>
 ```
 
 This button will call the `switchNetwork()` function, which we'll code in the next step. Also, find the reference code in the [MetaMask docs](https://docs.metamask.io/guide/rpc-api.html#unrestricted-methods).
